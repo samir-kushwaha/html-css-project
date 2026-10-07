@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blood Donation Report</title>
+</head>
+
+<body bgcolor="pink">
+
+    <h1 align="center">BLOOD DONATION REPORT</h1>
+
+    <p align="center">Please fill all the details clearly.</p>
+
+    <hr>
+
+    <form>
+
+        <table align="center" cellpadding="10">
+
+            <tr>
+                <td>Name :</td>
+                <td>
+                    <input type="text" name="name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Mobile No. :</td>
+                <td>
+                    <input type="text" name="mobile">
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Address :</td>
+                <td>
+                    <textarea name="address" rows="4" cols="30"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth :</td>
+                <td>
+                    <input type="date" name="dob">
+                </td>
+            </tr>
+
+            <tr>
+                <td>State :</td>
+                <td>
+                    <select name="state">
+                        <option>Select State</option>
+                        <option>Gujarat</option>
+                        <option>Maharashtra</option>
+                        <option>Rajasthan</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Delhi</option>
+                        <option>Punjab</option>
+                        <option>Other</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Have you ever donated blood?</td>
+                <td>
+                    <input type="radio" name="donate" value="yes"> Yes
+                    <input type="radio" name="donate" value="no"> No
+                </td>
+            </tr>
+
+            <tr>
+                <td>Valid Proof :</td>
+                <td>
+                    <input type="file" name="proof">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Weight (in kg) :</td>
+                <td>
+                    <input type="number" name="weight">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Age :</td>
+                <td>
+                    <input type="number" name="age">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Medical Report :</td>
+                <td>
+                    <textarea name="medical_report" rows="5" cols="30"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Signature :</td>
+                <td>
+                    <input type="text" name="signature">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit Report">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>
